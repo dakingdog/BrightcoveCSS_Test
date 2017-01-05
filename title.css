@@ -1,3 +1,18 @@
-.vjs-mouse.vjs-playlist .vjs-playlist-title-container{
+.vjs-mouse.vjs-playlist .vjs-playlist-title-container {
     display: none!important;
+}
+
+.vjs-playlist img {
+    height: 80px;
+}
+
+@media (min-width:920px) {
+    .bc-iframe .vjs-playlist-sidebar {
+        width: 17%;
+    }
+}
+@media (min-width: 640px){
+	.bc-iframe .vjs-playlist-sidebar{
+		width: 22%;
+	}
 }
