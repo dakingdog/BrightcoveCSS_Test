@@ -5,8 +5,10 @@
 .vjs-playlist img {
     height: 80px!important;
 }
-
-@media (min-width:920px) {
+.bc-iframe .vjs-playlist-sidebar {
+	width: 200px;
+}
+/*@media (min-width:920px) {
     .bc-iframe .vjs-playlist-sidebar {
         width: 17%;
     }
@@ -15,4 +17,4 @@
 	.bc-iframe .vjs-playlist-sidebar{
 		width: 22%;
 	}
-}
+}*/
