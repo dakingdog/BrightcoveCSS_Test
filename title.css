@@ -5,6 +5,16 @@
 .vjs-playlist img {
     height: 80px!important;
 }
-.bc-iframe .vjs-playlist-sidebar {
+/*.bc-iframe .vjs-playlist-sidebar {
 	width: 200px;
+}*/
+@media (min-width:920px) {
+    .bc-iframe .vjs-playlist-sidebar {
+        width: 14%;
+    }
+}
+@media (min-width: 640px){
+	.bc-iframe .vjs-playlist-sidebar{
+		width: 19%;
+	}
 }
